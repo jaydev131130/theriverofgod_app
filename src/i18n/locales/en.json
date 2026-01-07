@@ -1,0 +1,142 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "ok": "OK",
+    "success": "Success"
+  },
+  "tabs": {
+    "library": "Library",
+    "reading": "Reading",
+    "settings": "Settings"
+  },
+  "library": {
+    "title": "Library",
+    "emptyState": "No books yet",
+    "emptyStateSubtitle": "Download books in your preferred language to get started",
+    "downloadContent": "Download Content",
+    "downloadLanguages": "Download Languages",
+    "downloading": "Downloading...",
+    "downloaded": "Downloaded",
+    "download": "Download",
+    "downloadNow": "Download Now",
+    "downloadComplete": "Download complete!",
+    "downloadFailed": "Download failed. Please try again.",
+    "bookDetails": "Book Details",
+    "deleteConfirm": "Delete Book",
+    "deleteConfirmMessage": "Are you sure you want to delete this book? You can download it again later.",
+    "deleteFailed": "Failed to delete book",
+    "alreadyAdded": "Already Added",
+    "alreadyAddedMessage": "This language is already in your library",
+    "languageAdded": "Language added to your library"
+  },
+  "reader": {
+    "title": "Reading",
+    "noBookSelected": "Select a book from the library",
+    "selectFromLibrary": "Go to Library",
+    "startReading": "Start Reading",
+    "chapter": "Chapter",
+    "chapters": "chapters",
+    "tableOfContents": "Table of Contents",
+    "pageMode": "Page Mode",
+    "scrollMode": "Scroll Mode",
+    "fontSize": "Font Size",
+    "theme": "Theme"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "sepia": "Sepia"
+    },
+    "fontSize": "Font Size",
+    "fontSizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "extraLarge": "Extra Large"
+    },
+    "readingMode": "Reading Mode",
+    "readingModes": {
+      "page": "Page",
+      "scroll": "Scroll"
+    },
+    "tts": "Text-to-Speech",
+    "autoPlayTTS": "Auto-play TTS",
+    "autoPlayTTSDescription": "Automatically start reading aloud when opening a chapter",
+    "ttsVoice": "Voice",
+    "ttsVoiceAuto": "Auto (Best Quality)",
+    "ttsVoiceSelect": "Select Voice",
+    "ttsSpeed": "Speed",
+    "ttsSpeeds": {
+      "slow": "0.75x",
+      "normal": "1x",
+      "fast": "1.25x",
+      "veryFast": "1.5x"
+    },
+    "about": "About",
+    "version": "Version",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "tts": {
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "speed": "Speed",
+    "voiceNotAvailable": "Voice not available for this language"
+  },
+  "onboarding": {
+    "welcome": "Welcome",
+    "selectLanguage": "Select your language",
+    "continue": "Continue",
+    "downloadingContent": "Downloading content..."
+  },
+  "bookmarks": {
+    "title": "Bookmarks",
+    "addBookmark": "Add Bookmark",
+    "removeBookmark": "Remove Bookmark",
+    "noBookmarks": "No bookmarks yet"
+  },
+  "highlights": {
+    "title": "Highlights",
+    "addHighlight": "Add Highlight",
+    "removeHighlight": "Remove Highlight",
+    "noHighlights": "No highlights yet",
+    "colors": {
+      "yellow": "Yellow",
+      "green": "Green",
+      "blue": "Blue",
+      "pink": "Pink"
+    }
+  },
+  "errors": {
+    "networkError": "Please check your internet connection",
+    "downloadFailed": "Download failed. Please try again.",
+    "fileNotFound": "File not found"
+  },
+  "paywall": {
+    "title": "Unlock Full Book",
+    "subtitle": "Chapters 1-2 are free! Purchase to unlock all chapters.",
+    "chapterLocked": "\"{{chapter}}\" is locked",
+    "feature1": "Access all chapters",
+    "feature2": "Offline reading",
+    "feature3": "Support the mission",
+    "unlockAll": "Unlock All Chapters",
+    "restore": "Restore Purchase",
+    "continueFree": "Continue with free chapters",
+    "privacyNote": "Payment will be charged to your account. Subscription auto-renews unless cancelled.",
+    "purchaseSuccess": "Thank you! All chapters are now unlocked.",
+    "restoreSuccess": "Purchase restored successfully!",
+    "restoreNotFound": "No previous purchase found"
+  }
+}

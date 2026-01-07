@@ -1,0 +1,142 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "retry": "다시 시도",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "confirm": "확인",
+    "ok": "확인",
+    "success": "성공"
+  },
+  "tabs": {
+    "library": "서재",
+    "reading": "읽기",
+    "settings": "설정"
+  },
+  "library": {
+    "title": "서재",
+    "emptyState": "아직 책이 없습니다",
+    "emptyStateSubtitle": "원하는 언어로 책을 다운로드하여 시작하세요",
+    "downloadContent": "콘텐츠 다운로드",
+    "downloadLanguages": "언어 다운로드",
+    "downloading": "다운로드 중...",
+    "downloaded": "다운로드 완료",
+    "download": "다운로드",
+    "downloadNow": "지금 다운로드",
+    "downloadComplete": "다운로드가 완료되었습니다!",
+    "downloadFailed": "다운로드에 실패했습니다. 다시 시도해주세요.",
+    "bookDetails": "책 정보",
+    "deleteConfirm": "책 삭제",
+    "deleteConfirmMessage": "이 책을 삭제하시겠습니까? 나중에 다시 다운로드할 수 있습니다.",
+    "deleteFailed": "책 삭제에 실패했습니다",
+    "alreadyAdded": "이미 추가됨",
+    "alreadyAddedMessage": "이 언어는 이미 서재에 있습니다",
+    "languageAdded": "언어가 서재에 추가되었습니다"
+  },
+  "reader": {
+    "title": "읽기",
+    "noBookSelected": "서재에서 책을 선택하세요",
+    "selectFromLibrary": "서재로 이동",
+    "startReading": "읽기 시작",
+    "chapter": "장",
+    "chapters": "장",
+    "tableOfContents": "목차",
+    "pageMode": "페이지 모드",
+    "scrollMode": "스크롤 모드",
+    "fontSize": "글꼴 크기",
+    "theme": "테마"
+  },
+  "settings": {
+    "title": "설정",
+    "language": "언어",
+    "appearance": "외관",
+    "theme": "테마",
+    "themes": {
+      "light": "밝게",
+      "dark": "어둡게",
+      "sepia": "세피아"
+    },
+    "fontSize": "글꼴 크기",
+    "fontSizes": {
+      "small": "작게",
+      "medium": "보통",
+      "large": "크게",
+      "extraLarge": "매우 크게"
+    },
+    "readingMode": "읽기 모드",
+    "readingModes": {
+      "page": "페이지",
+      "scroll": "스크롤"
+    },
+    "tts": "텍스트 음성 변환",
+    "autoPlayTTS": "자동 재생",
+    "autoPlayTTSDescription": "장을 열 때 자동으로 음성으로 읽기 시작",
+    "ttsVoice": "음성",
+    "ttsVoiceAuto": "자동 (최고 품질)",
+    "ttsVoiceSelect": "음성 선택",
+    "ttsSpeed": "속도",
+    "ttsSpeeds": {
+      "slow": "0.75x",
+      "normal": "1x",
+      "fast": "1.25x",
+      "veryFast": "1.5x"
+    },
+    "about": "정보",
+    "version": "버전",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용약관"
+  },
+  "tts": {
+    "play": "재생",
+    "pause": "일시정지",
+    "stop": "정지",
+    "speed": "속도",
+    "voiceNotAvailable": "이 언어에 사용 가능한 음성이 없습니다"
+  },
+  "onboarding": {
+    "welcome": "환영합니다",
+    "selectLanguage": "언어를 선택하세요",
+    "continue": "계속",
+    "downloadingContent": "콘텐츠를 다운로드하는 중..."
+  },
+  "bookmarks": {
+    "title": "북마크",
+    "addBookmark": "북마크 추가",
+    "removeBookmark": "북마크 삭제",
+    "noBookmarks": "북마크가 없습니다"
+  },
+  "highlights": {
+    "title": "하이라이트",
+    "addHighlight": "하이라이트 추가",
+    "removeHighlight": "하이라이트 삭제",
+    "noHighlights": "하이라이트가 없습니다",
+    "colors": {
+      "yellow": "노란색",
+      "green": "초록색",
+      "blue": "파란색",
+      "pink": "분홍색"
+    }
+  },
+  "errors": {
+    "networkError": "인터넷 연결을 확인해주세요",
+    "downloadFailed": "다운로드에 실패했습니다. 다시 시도해주세요.",
+    "fileNotFound": "파일을 찾을 수 없습니다"
+  },
+  "paywall": {
+    "title": "전체 책 잠금 해제",
+    "subtitle": "1-2장은 무료입니다! 구매하여 모든 장을 잠금 해제하세요.",
+    "chapterLocked": "\"{{chapter}}\"이(가) 잠겨 있습니다",
+    "feature1": "모든 장에 접근",
+    "feature2": "오프라인 읽기",
+    "feature3": "선교 사역 지원",
+    "unlockAll": "모든 장 잠금 해제",
+    "restore": "구매 복원",
+    "continueFree": "무료 장으로 계속하기",
+    "privacyNote": "결제는 귀하의 계정에서 청구됩니다. 취소하지 않으면 자동 갱신됩니다.",
+    "purchaseSuccess": "감사합니다! 모든 장이 잠금 해제되었습니다.",
+    "restoreSuccess": "구매가 성공적으로 복원되었습니다!",
+    "restoreNotFound": "이전 구매 내역을 찾을 수 없습니다"
+  }
+}
