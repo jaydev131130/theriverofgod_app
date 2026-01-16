@@ -1,0 +1,20 @@
+# EAS Build Ignore
+# admin 폴더는 Next.js 웹앱으로 Expo 앱과 별개
+
+admin/
+docs/
+
+# 테스트 및 개발 파일
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+jest.config.js
+jest.setup.js
+
+# 기타
+*.md
+!README.md
+.env.local
+.env.development
