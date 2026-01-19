@@ -1,5 +1,12 @@
 // 지원 가능한 언어 목록 (ISO 639-1 코드)
-export const AVAILABLE_LANGUAGES = [
+export interface LanguageInfo {
+  code: string;
+  name: string;
+  localName: string;
+  rtl?: boolean;
+}
+
+export const AVAILABLE_LANGUAGES: LanguageInfo[] = [
   { code: 'en', name: 'English', localName: 'English' },
   { code: 'ko', name: 'Korean', localName: '한국어' },
   { code: 'es', name: 'Spanish', localName: 'Español' },
@@ -24,7 +31,7 @@ export const AVAILABLE_LANGUAGES = [
   { code: 'ur', name: 'Urdu', localName: 'اردو', rtl: true },
   { code: 'sw', name: 'Swahili', localName: 'Kiswahili' },
   { code: 'am', name: 'Amharic', localName: 'አማርኛ' },
-] as const;
+];
 
 export const RTL_LANGUAGES = ['ar', 'he', 'fa', 'ur'];
 
@@ -32,6 +39,10 @@ export const isRtlLanguage = (code: string): boolean => {
   return RTL_LANGUAGES.includes(code);
 };
 
-export const getLanguageInfo = (code: string) => {
-  return AVAILABLE_LANGUAGES.find(lang => lang.code === code);
+export const getLanguageInfo = (code: string): LanguageInfo | undefined => {
+  return AVAILABLE_LANGUAGES.find((lang) => lang.code === code);
+};
+
+export const isValidLanguageCode = (code: string): boolean => {
+  return AVAILABLE_LANGUAGES.some((lang) => lang.code === code);
 };

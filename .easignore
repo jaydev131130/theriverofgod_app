@@ -1,7 +1,5 @@
 # EAS Build Ignore
-# admin 폴더는 Next.js 웹앱으로 Expo 앱과 별개
 
-admin/
 docs/
 
 # 테스트 및 개발 파일
