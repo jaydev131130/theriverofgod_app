@@ -1,18 +1,42 @@
 # EAS Build Ignore
 
+# 문서
 docs/
 
-# 테스트 및 개발 파일
+# AI 도구 설정 (Claude, Amazon Q, Gemini 등)
+.amazonq/
+.claude/
+.gemini/
+.specify/
+openspec/
+
+# Git worktrees
+.worktrees/
+
+# CLI 스크립트 (Node.js 전용, 앱에서 사용 안 함)
+scripts/
+
+# 테스트 파일
 __tests__/
+__mocks__/
+e2e/
 *.test.ts
 *.test.tsx
 *.spec.ts
 *.spec.tsx
 jest.config.js
 jest.setup.js
+playwright.config.ts
 
-# 기타
+# Markdown (README 제외)
 *.md
 !README.md
+
+# 환경 설정
 .env.local
 .env.development
+
+# 기타 개발 파일
+AGENTS.md
+PRD.md
+e2e-test.js
